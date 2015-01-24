@@ -1,0 +1,50 @@
+/*==============================================* DARK SKIN *===============================================*/
+.page-wrapper, #page {background-color:#222 !Important;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .servicestyle2 i {color:#fff !Important;}
+.service-box-1 .icon-custom-style {color:#333 !Important;}
+body {color:rgba(255,255,255,0.4);}
+.thumbnail {background-color: rgba(0,0,0,0.1);border:0px;}
+ul.social-icons li {border:0px;}
+.wow-pricing-table>div {border:0px;}
+#wowrecentposts .textin {background-color: transparent;}
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="url"], #contact-form input[type="password"], #contact-form input[type="search"], #contact-form textarea {
+border: 1px solid rgba(255,255,255,0.1);}
+.btn-continue {border: 1px solid rgba(255,255,255,0.1);}
+.isoportfoliofilter li:first-child a {border-left:1px solid rgba(255,255,255,0.1);}
+.isoportfoliofilter li a, .isoportfoliofilter li:last-child a, .isoportfoliofilter li a.active {border-color: rgba(255,255,255,0.1);}
+.entry-meta, .nav-links.clearfix, .form-control {border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1);}
+#comments article, .widget_recent_comments ul li, .widget_categories ul li, .widget_archive ul li, .widget_links ul li, .widget_meta ul li, .widget_pages ul li, .widget_recent_entries ul li{border-bottom:1px solid rgba(255,255,255,0.1);}
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea, select {border-color:rgba(255,255,255,0.1);}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td, .wow-toggle .wow-toggle-trigger, .nav-tabs>li>a, .wow-toggle .wow-toggle-container
+ {border:1px solid rgba(255,255,255,0.1);}
+h2.header3 {background-color: #222;}
+hr, .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td
+{border-top: 1px solid rgba(255,255,255,0.1);}
+.wowpanel, .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th, .wow-toggle .wow-toggle-trigger, .panel-group .panel-heading+.panel-collapse .panel-body, .panel-title>a.collapsed, .tab-content, .nav-tabs>li>a  {background-color: rgba(0,0,0,0.1);}
+.funfacts .icon {border: 2px solid rgba(255,255,255,0.1);}
+.panel-group .panel-heading+.panel-collapse .panel-body, .tab-content  { border:0px;}
+.nav-tabs {border-left: 0;}
+.nav-tabs>li>a:hover {background-color:transparent;border:1px solid rgba(255,255,255,0.1);border-left:none;}
+.nav-tabs>li>a {border-left:none;}
+.nav-tabs>li:first-child {border-left:1px solid rgba(255,255,255,0.1);}
+.wskill li {background: #333;}
+.progressdefault {background-color: rgba(0,0,0,0.1);}
+.wow-toggle .wow-toggle-trigger:hover, .wow-toggle .wow-toggle-container, .wow-toggle .wow-toggle-trigger.active, .wow-toggle .wow-toggle-trigger.active:hover {background-color: rgba(0,0,0,0.1);}
+.input-group-btn:last-child>.btn {border-left:0px;}
+.input-group-btn:last-child>.btn:hover {background-color:transparent;}
+.entry-header.archivephpentryheader {border-bottom: double medium rgba(255,255,255,0.1);}
+.or-spacer span {background-color:#222;}
+.or-spacer .mask:after {background-color:rgba(255,255,255,0.1);}
+.or-spacer span i {border:1px dashed rgba(255,255,255,0.2);}
+#search input {border-radius:4px; height:40px;}
+
+
+@media only screen and (min-width: 768px) {	
+
+.navbar-default{ background-color:#000000;}
+.navbar-default { opacity: 1.0;}
+.navbar-default, .navbar-default .navbar-nav>li>a, .navbar-default a, a .navbar-default { color:#f4f4f4;}
+.navbar-nav li.menu-item-has-children ul.sub-menu {background-color:#000000;}
+.navbar-nav li.menu-item-has-children ul.sub-menu li a {border-bottom:1px solid rgba(255,255,255,0.15);}
+
+}

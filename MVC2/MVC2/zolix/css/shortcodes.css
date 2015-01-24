@@ -1,0 +1,1102 @@
+/*==============================================* SHORTCODE TESTIMONIALS*===============================================*/
+.wowshtestim img.testimimg {
+	width:120px;
+	display:block;
+	background:#fff;
+	padding:5px;
+	border-radius:50%;
+	margin:0px auto;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.wowshtestim .content {
+	font-size:16px;
+	font-weight:normal;
+	line-height:1.7;
+}
+.wowshtestim .author {
+	font-size:13px;
+		text-transform:uppercase;
+		letter-spacing:1px;
+	font-weight:300;
+	margin-top:15px;
+	display: block;
+}
+
+/*==============================================* SHORTCODE TWITTER*===============================================*/
+div.rotatingtweet {
+	text-align:center;margin-bottom:0px;
+}
+#content .rotatingtweets, #content .norotatingtweets {
+	
+	margin-bottom:0px;
+	border:0;
+	margin:0px auto !Important;
+	text-align:center !important;
+}
+.container>.rotatingtweets {text-align:center;}
+
+#content p.rtw_main, p.rtw_main, div.rtw_main {	
+	line-height: 1.3;	
+	font-size: 28px;
+	position: relative;
+	text-transform: uppercase;
+	text-align:center !important;
+}
+#content p.rtw_main a {text-transform:none; border-bottom:1px dotted;}
+div.rotatingtweet p {padding:0px;margin:0;text-align:center;max-width: 600px !Important;margin:0px auto;}
+p.rtw_meta, div.rtw_meta {
+	font-weight:300;
+	font-size: 16px;
+	margin-bottom:0px;
+	padding:0px;
+
+	text-align:center;
+}
+
+
+.twittericonsh {	
+	font-size: 110px; 
+	padding-bottom: 10px;
+	text-align:center;
+	display: block !Important;
+	margin:0px auto;
+}
+
+#content .rotatingtweets, #content .norotatingtweets, #content p.rtw_main, p.rtw_main, div.rtw_main, div.rotatingtweet p, div.rotatingtweet  {width:100% !Important; max-width:100% !important;}
+p.rtw_meta, div.rtw_meta {	margin-top:15px !Important;}
+#content .rotatingtweet {
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left:10%;
+padding-right:10%;
+}
+
+/*==============================================* SHORTCODE CUSTOM TYPE WOW SLIDER*===============================================*/
+.customtypewowslider .flex-caption {text-align:center;}
+.customtypewowslider h3.slidertitle{
+	font-weight: 800;
+	font-size: 80px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	line-height: 0;
+	margin-bottom: 70px;
+}
+.customtypewowslider h4.sliderdescription {
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+/*==============================================* SHORTCODE RECENT POSTS*===============================================*/
+#wowrecentposts .item {
+	margin-left:15px;
+	margin-right:15px;
+}
+#wowrecentposts .textin {
+	padding:15px 0 0 0;
+}
+#wowrecentposts .thethumbnail {
+	overflow:hidden;
+	position:relative;
+	max-height:200px;
+}
+#wowrecentposts .thethumbnail img {
+	height:auto;
+	width:100%;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		transition: all 1s ease;
+}
+#wowrecentposts .thethumbnail img:hover {
+	transform:scale(1.5);
+	-ms-transform:scale(1.5);
+	/* IE 9 */
+	-moz-transform:scale(1.5);
+	/* Firefox */
+	-webkit-transform:scale(1.5);
+	/* Safari and Chrome */
+	-o-transform:scale(1.5);
+	/* Opera */
+}
+#wowrecentposts h2 {
+	margin-bottom:0px;
+	margin-top:0px;
+	font-size:18px;
+	text-transform:uppercase;
+	line-height:1.4;
+}
+#wowrecentposts .meta {
+	margin-top:2px;
+	position:relative;
+	color:#999;
+	font-size:13px;
+}
+#wowrecentposts .time {
+}
+#wowrecentposts .comments {
+		float:right;
+}
+#wowrecentposts .excerpt {
+	display:block;
+		clear:both;
+		float:none;
+	margin-top: 10px;
+}
+/*==============================================* SHORTCODE TEAM*===============================================*/
+.thumbnail {
+	font-size:inherit;
+	background:transparent;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	padding:0px;
+	text-align:center;
+	line-height:inherit;
+	border:1px solid #eee;
+	margin:0;
+}
+.thumbnail h4 {
+	font-size:18px;
+	margin-bottom:0;
+}
+.thumbnail .caption {
+	color:inherit;
+	padding:15px 30px 15px;
+}
+.thumbnail .caption span {
+	font-size:12px;
+	text-transform:uppercase;
+	display:block;
+	margin-bottom:5px;
+}
+ul.social-icons {
+	margin-top:15px;
+}
+ul.social-icons li {
+	display:inline-block;
+	float:none;
+	padding:17px;
+	width:10px;
+	height:10px;
+	position:relative;
+	background:#555;
+	margin-right:5px;
+	border-radius:50%;
+}
+ul.social-icons li {
+	display:inline-block;
+	float:none;
+	padding:17px;
+	width:10px;
+	height:10px;
+	position:relative;
+	background:transparent;
+	margin-right:5px;
+	border-radius:50%;
+	border:1px solid #ccc;
+}
+ul.social-icons li i {
+	position:absolute;
+	font-size:15px;
+	width:40px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	left:50%;
+	top:50%;
+	margin-left:-20px;
+	margin-top:-20px;
+}
+ul.social-icons li a {
+	color:inherit;
+}
+ul.social-icons li a i {
+	-webkit-transition-duration:0.8s;
+	-moz-transition-duration:0.8s;
+	-o-transition-duration:0.8s;
+	transition-duration:0.8s;
+	-webkit-transition-property:-webkit-transform;
+	-moz-transition-property:-moz-transform;
+	-o-transition-property:-o-transform;
+	transition-property:transform;
+	overflow:hidden;
+}
+ul.social-icons li a i:hover {
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+}
+ul.social-icons li a:hover {
+	text-decoration: none;
+}
+/*==============================================* SHORTCODE PRICING*===============================================*/
+.wow-pricing-table {
+	list-style:none;
+	margin:0;
+	padding:0;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	transition:0.3s;
+}
+.wow-pricing-table div {
+	list-style:none;
+}
+.wow-pricing-table>div {
+	list-style:none;
+	text-shadow:none;
+	margin-bottom:0px;
+	border:1px solid #eee;
+		margin:0px 15px;
+}
+.wow-pricing-table>div.featured {
+		z-index:1;
+}
+.wow-pricing-table>div.featured {
+}
+.wow-pricing-table>div.featured .wow-pricing-header {
+	background-color:#00cfef;
+}
+.wow-pricing-table:hover {
+	margin-top:-5px;
+}
+.wow-pricing-table .wow-pricing-header {
+	text-align:center;
+	padding:20px 0 10px 0;
+	background-color:#333;
+}
+.wow-pricing-table .wow-pricing-header h5 {
+	color:#fff;
+	font-size:20px;
+	margin:0;
+	padding:0 20px 0px;
+}
+.wow-pricing-table .wow-pricing-cost {
+	color:#fff;
+	font-size:1.500em;
+	line-height:1em;
+	padding-top:15px;
+	background:#333;
+}
+.wow-pricing-table .wow-pricing-per {
+	font-size:0.786em;
+	color:#fff;
+	background-color:#333;
+	padding-bottom:10px;
+}
+.wow-pricing-table .wow-pricing-content {
+	background:#fff;
+	text-align:center;
+}
+.wow-pricing-table .wow-pricing-content ul {
+	margin:0 !important;
+	list-style:none !important;
+	padding-left:0;
+}
+.wow-pricing-table .wow-pricing-content ul li {
+	margin:0 !important;
+	padding:10px 20px !important;
+	border-bottom:1px solid #eee;
+	list-style:none !important;
+	color:#555;
+}
+.wow-pricing-table .wow-pricing-content ul li:nth-child(2n+2) {
+	background:#F9F9F9;
+}
+.wow-pricing-table .wow-pricing-button {
+	background:#fff;
+	text-align:center;
+	border-top:1px solid #fff;
+	padding: 35px 20px 35px;
+}
+.wow-pricing-table .wow-pricing-button .wow-button {
+	float:none;
+	margin:0 auto;
+	background:#333;
+	color:#fff;	
+	border-radius:3px;
+	padding: 12px 22px 14px;
+}
+.featured .wow-pricing-per,.featured .wow-pricing-cost,.featured .wow-pricing-button .wow-button,.buttoncolor {
+	background-color: #00cfef;
+}
+/*================================================== SHORTCODE ALERTS================================================== */
+.alert {border-radius: 3px;border: 0;font-size: 15px;}
+.alert-success {background-color:#2ac56c;color:#fff;}
+.alert-danger {background-color:#f06060;color:#fff;}
+.alert-info{background-color:#4593e3;color:#fff;}
+.alert-warning{background-color:#fcd04b;color:#fff;}
+/*================================================== SHORTCODE TABLE================================================== */
+.table-bordered {
+margin-top: 10px;
+}
+/*================================================== SHORTCODE TOGGLE================================================== */
+.wow-toggle .wow-toggle-trigger {
+	display:block;
+	padding:13px 15px 13px 37px;
+	border:1px solid #eee;
+	background-image:url("../img/plus.png");
+	background-color:#f9f9f9;
+	background-repeat:no-repeat;
+	background-position:15px center;
+	outline:0;
+	font-size:inherit;
+	color:#444;
+	text-transform:uppercase;
+	line-height:23px;
+	margin:0;
+	cursor:pointer;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;	
+	margin-top:10px;
+}
+.wow-toggle .wow-toggle-trigger:hover {
+	background-color:#fff;
+	text-decoration:none;
+}
+.wow-toggle .wow-toggle-trigger.active,.wow-toggle .wow-toggle-trigger.active:hover {
+	color:#000;
+	background-color:#fff;
+	background-image:url("../img/minus.png");
+	text-decoration:none;
+}
+.wow-toggle .wow-toggle-container {
+	display:none;
+	overflow:hidden;
+	padding:15px 37px;
+	border:1px solid #eee;
+	border-top:0px;
+	background-color:#fff;
+	color: #777;
+}
+/*==============================================* SHORTCODE CONTACT*===============================================*/
+#contact-form input[type="text"],#contact-form input[type="email"],#contact-form input[type="url"],#contact-form input[type="password"],#contact-form input[type="search"],#contact-form textarea {
+	border:1px solid #ddd;
+	background-color:transparent;
+	width:100%;
+	padding:10px 15px;
+	margin-bottom:20px;
+	color:inherit;
+	outline:0;
+	border-radius:3px;
+	font-size:inherit;
+}
+span.contacticon {
+		letter-spacing:2px;
+	position:relative;
+}
+span.contacticon:before {
+	font-family:FontAwesome;
+	position:absolute;
+	content:"\f1d9";
+	left:5px;
+	top:-3px;
+	padding-left:10px;
+	color:#fff;
+}
+input[type="submit"].contactbutton {
+	padding:10px 20px 10px 40px;
+	background-color:#333;
+}
+.contactbutton:hover {
+	background-color:#333;
+	color: #fff;
+}
+/*==============================================* SHORTCODE MAP*===============================================*/
+.wrapbeforemap {position: relative; z-index: 1;text-align:center;margin-top: 40px;}
+.mapinfo {background-color: #00cfef;letter-spacing: 1px; padding: 30px 20px; color: #fff; font-weight: 600;}
+.mapinfoicon {position: absolute;top: -30px;left: 50%;background-color: #fff;color: #444; height: 50px; width: 50px; border-radius: 50%; font-size: 30px;line-height: 50px;text-align: center; margin-left: -25px;}
+#map-canvas {
+	min-height: 200px;	
+}
+/*==============================================* SHORTCODE LISTS*===============================================*/
+.unstyle ul,.unstyle ol,ul.unstyle,ol.unstyle {
+	-moz-padding-start:0px;
+	-webkit-padding-start:0px;
+	-khtml-padding-start:0px;
+	-o-padding-start:0px;
+}
+.unstyle ul li,.unstyle ol li,ul.unstyle li,ol.unstyle li {
+	list-style:none;
+}
+ul.checklist li:before {
+	content:"\f00c ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.circleoklist li:before {
+	content:"\f058 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.arrowlist li:before {
+	content:"\f061 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.starlist li:before {
+	content:"\f005 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.doublearrowlist li:before {
+	content:"\f101 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.chevronlist li:before {
+	content:"\f054 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.handlist li:before {
+	content:"\f0a4 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.thumblist li:before {
+	content:"\f087 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.asterisklist li:before {
+	content:"\f069 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.circlearrowlist li:before {
+	content:"\f0a9 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.circlepluslist li:before {
+	content:"\f055 ";
+	font-family:FontAwesome;
+	margin-right:5px;
+}
+ul.longarrowlist li:before {
+	content:"\f178 ";
+	font-family:FontAwesome;
+	margin-right: 5px;
+}
+/*==============================================* SHORTCODE SERVICES*===============================================*/
+.service-box {
+	overflow:hidden;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+.service-box-1 {
+	margin-left:10px;
+}
+.right-column .service-box-1 {
+	margin-right:10px;
+	margin-left:0px;
+}
+.service-box-1 span {
+	display:inline-block;
+	margin-top:0;
+	width:45px;
+	text-align:center;
+	border-radius:50%;
+}
+.service-box-1 .icon-custom-style {
+	font-size:23px;
+	background-color:#fff;
+	height:40px;
+	width:40px;
+	line-height:40px;
+	border-radius:50%;
+}
+.service-box-2 {
+	overflow:hidden;
+}
+.service-box-2 h4 {
+	margin-top: 0;
+}
+/*==============================================* SHORTCODE SERVICES 2*===============================================*/
+.servicestyle2 {
+	position:relative;
+	padding-left:60px;
+}
+.servicestyle2 i {
+	font-size:30px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color: #333;
+}
+/*==============================================* SHORTCODE SERVICES 3*===============================================*/
+.servicestyle3 {
+	position:relative;
+	padding-left:60px;
+}
+.servicestyle3 i {
+	font-size:20px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:#fff;
+	background-color:#444;
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	line-height:40px;
+	text-align: center;
+}
+/*==============================================* SHORTCODE SERVICES 4*===============================================*/
+.servicestyle4 {
+	position:relative;
+	padding-left:60px;
+}
+.servicestyle4 i {
+	font-size:20px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:#fff;
+	background-color:#00cfef;
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	line-height:40px;
+	text-align: center;
+}
+/*==============================================* SHORTCODE SERVICES 5*===============================================*/
+.servicestyle5 {
+	position:relative;
+	padding-left:60px;
+}
+.servicestyle5 i {
+	font-size:30px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color: #00cfef;
+}
+/*==============================================* SHORTCODE FEATURES*===============================================*/
+.feature-item {
+	text-align:center;
+}
+.feature-item .icon {
+	font-size:40px;
+	line-height:100px;
+	height:100px;
+	width:100px;
+	-webkit-transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	transition:all 0.6s;
+	display:inline-block;
+	text-align:center;
+	margin-bottom:20px;
+	border-radius:50%;
+	color:#fff;
+	background-color:#00cfef;
+}
+.feature-item .icon:hover {
+		border-radius:0;
+}
+.feature-item p.description {
+		margin-bottom:0;
+	text-transform:uppercase;
+	font-size:95%;
+}
+.feature-item .sep {
+	border-bottom:1px solid;
+	display:inline-block;
+	width:30px;
+	margin:0px auto;
+	margin-bottom:3px;
+	margin-left:3px;
+}
+.feature-item h4 {
+	margin-bottom: 0px;
+}
+/*==============================================* SHORTCODE FEATURES 2*===============================================*/
+.feature-item.shortcfeature2 .icon {
+	background-color:transparent;
+	color:#00cfef;
+	border: 1px solid;
+    border-color: #00cfef;
+}
+
+/*==============================================* SHORTCODE VIDEO*===============================================*/
+
+.video-containeryt{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+	background:transparent;
+}
+.video-containeryt iframe, .video-containersh iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.videowrap, .videowrapsh {
+	position:relative;
+	overflow:hidden;
+	width: 100.1%;
+}
+.videowrap .player .controls {
+	display:none !Important;
+}
+.videowrap .videocontent, .videowrapsh .videocontent {
+	height:50%;
+	margin:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	font-weight:900;
+	color:#fff;
+	text-align: center;
+}
+
+/*==============================================* BOLDHEADERAREA*===============================================*/
+.boldheaderarea.wowanimslider h1 {font-size:40px; font-weight:900;letter-spacing: -1px;}
+.boldheaderarea.wowanimslider h6 {font-weight:300;max-width:700px;margin:0px auto;letter-spacing:1px;}
+/*==============================================* SHORTCODE WOW_animslider*===============================================*/
+.wowanimslider .flex-direction-nav {
+	display:none;
+}
+.wowanimslider .caption a,.wowanimslider .caption h1,.wowanimslider .caption h2,.wowanimslider .caption h3,.wowanimslider .caption h4,.wowanimslider .caption h5,.wowanimslider .caption h6 {
+	color:inherit;
+}
+.wowanimslider h1 {
+	font-weight:800;
+	font-size:80px;
+	text-transform:uppercase;
+	margin-top:0px;
+	line-height:80px;
+	margin-bottom:0px;
+}
+.wowanimslider h6 {
+	font-size:18px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-weight:700;
+	margin-top: 20px;
+}
+.wowanimslider .btn {
+	font-weight:400;
+	margin-left:5px;
+	margin-right:5px;
+	min-width:170px;
+	border:1px solid;
+	font-size:14px;
+	padding:12px 25px;
+	border-radius:2px;
+	letter-spacing:1px;
+	margin-top:20px;
+	text-transform:uppercase;
+	max-width:100%;
+}
+.wowanimslider .btn.color {
+	background-color:#00cfef;
+	border:1px solid;
+	border-color:#00cfef;
+	color: #fff;
+}
+/*==============================================* SHORTCODE BLOCKS*===============================================*/
+/*==Block 1==*/
+.block1 .flex-direction-nav {
+	display:none;
+}
+.block1 .caption a,.block1 .caption h1,.block1 .caption h2,.block1 .caption h3,.block1 .caption h4,.block1 .caption h5,.block1 .caption h6 {
+	color:inherit;
+}
+.block1 h1 {
+	font-size:90px;
+	text-transform:uppercase;
+	margin-top:0px;
+	line-height:0;
+	margin-bottom:70px;
+}
+.block1 h6 {
+	font-size:18px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-weight:300;
+}
+.block1 .btn {
+	font-weight:400;
+	margin-left:5px;
+	margin-right:5px;
+	min-width:170px;
+	border:1px solid;
+	font-size:14px;
+	padding:12px 25px;
+	border-radius:2px;
+	letter-spacing:1px;
+	margin-top:30px;
+	text-transform:uppercase;
+}
+.block1 .btn.color {
+	background-color:#00cfef;
+	border:1px solid;
+	border-color: #00cfef;
+	color: #fff;
+}
+/*==Block 2==*/
+.block2 .text1 {
+	color:inherit;
+	font-weight:300;
+	font-size:18px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	display:block;
+	margin-bottom:10px;
+}
+.block2 .text2 {
+	color:inherit;
+	text-transform:uppercase;
+	line-height:1.3;
+	margin-top:0px;
+	font-size:30px;
+}
+.block2 .text3 {
+	color:inherit;
+	font-size:13px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-weight: 300;
+}
+/*==============================================* SHORTCODE SKILLS*===============================================*/
+.skill-bar label {
+	font-weight:normal;
+}
+.progress {
+	background:rgba(255,255,255,0.3) !Important;
+	height:40px !important;
+}
+.progress .bar {
+	background-color:#00cfef;
+	padding:20px 0;
+	font-size:10px;
+	color:#000000;
+	margin-top:-2px;
+	text-indent:-9999999px;
+	width:0px;
+}
+.progress .bar.speed {
+	-webkit-transition:width 4s cubic-bezier(0.785,0.135,0.15,0.86);
+	-moz-transition:width 4s cubic-bezier(0.785,0.135,0.15,0.86);
+	-ms-transition:width 4s cubic-bezier(0.785,0.135,0.15,0.86);
+	-o-transition:width 4s cubic-bezier(0.785,0.135,0.15,0.86);
+	transition: width 4s cubic-bezier(0.785,0.135,0.15,0.86);
+}
+/*==============================================* SHORTCODE BS TABS*===============================================*/
+.nav-tabs {
+	border-left:1px solid #eee;
+	border-bottom:20px;
+}
+.tab-content {
+	border:1px solid #eee;
+	padding:20px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	margin-bottom:20px;
+	color:inherit;
+}
+.nav-tabs>li:active {
+	margin-bottom:-1px;
+}
+.nav-tabs>li>a {
+	padding:12px 20px;
+	background:#fcfcfc;
+	line-height:21px;
+	border:1px solid #eee;
+	border-left:none;
+	margin-right:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	text-transform:uppercase;
+	font-weight:700;
+}
+.nav-tabs>li>a:hover {
+	border-color:#eee #eee #eee;
+	background-color:#fff;
+}
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover {
+	background-color:#fff;
+	border-left:none;
+	color:#29bbf2;
+	cursor:default;
+	border-bottom:0px;
+}
+.nav-tabs>li.active>a {
+	color:#333;
+	cursor:default;
+	background-color:#fff;
+	border:1px solid #eee;
+	margin-bottom:-1px;
+	border-left:0px;
+	border-bottom:0;
+}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover {
+	border-left: 0;
+	border-bottom: 1px solid;
+	border-color: #00cfef;
+	background-color: #00cfef;
+	color: #fff;	
+}
+/*==============================================* SHORTCODE Count to*===============================================*/
+.funfacts .icon {
+	font-size:40px;
+	display:inline-block;
+	width:80px;
+	height:80px;
+	border:2px solid rgba(0,0,0,0.1);
+	line-height:80px;
+	text-align:center;
+	border-radius:50%;
+	margin-bottom:10px;
+	clear:both;
+}
+.funfacts .counter {
+	font-size:60px;
+}
+.funfacts h4 {
+	text-transform:uppercase;
+	font-size:14px;
+	margin:22px 0 0px;
+	position:relative;
+}
+.funfacts h4:before {
+	content:'';
+	position:absolute;
+	width:60px;
+	height:2px;
+	background-color:#fff;
+	top:-20px;
+	left:50%;
+	margin-left: -30px;
+}
+/*==============================================* SHORTCODE Panel*===============================================*/
+.wowpanel {
+	background-color:#f6f6f6;
+	border-left:7px solid;
+	border-color:#444;
+	padding:20px;
+	margin-bottom: 15px;
+}
+/*==============================================* SHORTCODE B Panel - collapsable*===============================================*/
+.panel-title {
+	font-size:20px;
+	text-transform:none;
+	font-weight:400;
+	padding:0;
+	position:relative;
+}
+.panel-title>a {
+	font-size:14px;
+	text-transform:uppercase;
+	display:block;
+	font-weight:700;
+	padding:15px 40px 15px 30px;
+	background-color:#00cfef;
+	color:#fff !important;
+}
+.panel-title>a:after {
+	color:#fff;
+	content:'-';
+	position:absolute;
+	font-size:22px;
+	right:27px;
+	top:15px;
+}
+.panel-title>a:hover {
+	background-color:#414141;
+}
+.panel-title>a.collapsed {
+	background-color:#414141;
+}
+.panel-title>a.collapsed:hover {
+	background-color:#00cfef;
+}
+.panel-title>a.collapsed:after {
+	content:'+';
+	right:24px;
+}
+.panel {
+	box-shadow:none;
+}
+.panel-group .panel {
+	border-radius:0;
+	/* border-left:0;border-right:0;border-bottom:0;*/background-color:transparent;
+}
+.panel-default>.panel-heading {
+	background-color:transparent;
+	color:inherit;
+	position:relative;
+	border:none;
+	border-radius:0;
+	padding:0;
+}
+.panel-heading {
+	padding:16px 0px 14px 16px;
+}
+.panel-heading[class*="rt-icon-"]:before {
+	position:absolute;
+	font-size:20px;
+	color:#e16657;
+	left:16px;
+}
+.panel-default {
+	border-color:transparent;
+}
+.panel-default+.panel-default {
+	border:0;
+}
+.panel-group .panel+.panel {
+	margin-top:9px;
+}
+.panel-group .panel-heading+.panel-collapse .panel-body {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	border-right:1px solid #eee;
+	border-left:1px solid #eee;
+	border-bottom:1px solid #eee;
+	border-top:none;
+}
+
+/*==============================================* /* SHORTCODE WOW Accordion 1================================================== */
+.wow-accordion h3.wow-accordion-trigger {
+	display:block;
+	color:#333;
+	display:block;
+	padding:15px 15px 15px 37px;
+	border:1px solid #ddd;
+	background:#f6f6f6 url(../img/plus.png) no-repeat 15px center;
+	outline:0;
+	text-transform:none;	
+	font-size:inherit;
+	line-height:1.5em;
+	margin:-1px 0 0 !important;
+	cursor:pointer;
+}
+.wow-accordion h3.wow-accordion-trigger a {
+	color:#444;
+	text-decoration:none !important;
+	text-transform:uppercase;
+}
+.wow-accordion .ui-state-focus {
+	outline:none;
+}
+.wow-accordion .wow-accordion-trigger:hover {
+	text-decoration:none;
+}
+.wow-accordion .wow-accordion-trigger.ui-state-active {
+	background:#fff url("../img/minus.png") no-repeat 15px center;
+	text-decoration:none;
+	border-bottom:0px;
+}
+.wow-accordion .wow-accordion-trigger.ui-state-active a {
+	
+}
+.wow-accordion .ui-accordion-content {
+	background-color:#fff;
+	padding:0px 15px 15px 15px;
+	border:1px solid #ddd;
+	border-top:0px;
+	padding-left: 40px;
+	color: #777;
+}
+.wow-accordion .ui-accordion-content p:last-child {
+	margin:0px;
+}
+.wow-accordion .ui-icon {
+	margin-right:5px;
+}
+.wow-accordion {
+	margin-bottom:20px;
+}
+
+
+
+/* =========================================================== *//* SHORTCODE  Skills (Progress Bar) /* ============================================================== */
+ul.wskill {
+	list-style:none;
+	padding-left: 0;
+}
+.wskill {
+	list-style:none;
+	font-size:12px;
+	position:relative;
+	line-height:2em;
+}
+.wskill li {
+	margin-bottom:20px;
+	height:50px;
+	background:#f6f6f6;
+}
+.wskill li:last-child {
+	margin-bottom:0px;
+}
+.wskill li h3 {
+	position: relative;
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #fff;
+	display: block;
+	line-height: 50px;
+	padding-left: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.wskill i {
+	background-color:#00cfef;
+	color:#fff;	
+	margin-left:-13px;
+	margin-right:10px;
+	width: 50px;
+	line-height:50px;
+	text-align: center;
+	font-size: 20px;
+}
+.thebar {
+	height:50px;
+	position:absolute;
+	width:100%;
+}
+.progressdefault {
+	background-color:#444;
+}
+
+
+/*==============================================* SHORTCODE CLIENTS CAROUSEL*===============================================*/
+.wowcarouselanything img {display:inline; text-align:center;}
+
+
+/*==============================================* SHORTCODE BUTTONS*===============================================*/
+.btn {border:0px;border-radius:3px;padding: 9px 15px;margin-top: 15px;}
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {background-color:#ffd700;color:#fff;}
+.btn-lg, .btn-group-lg>.btn {border-radius:3px;}
+.btn-inverse {background-color:#333; color:#fff;}
+.btn-inverse:hover {background-color:#555; color:#fff;}
+.btn-simple {background-color:transparent; color:#fff; border:1px solid #fff;}
+.btn-simple:hover {background-color:#fff; color:#444 !Important; border:1px solid #fff;}
+.btn-white {background-color:#fff; color:#444; border:1px solid #fff;}
+.btn-white:hover {background-color:#f5f5f5; color:#444; border:1px solid #fff;}
+.btn-xs, .btn-group-xs>.btn {padding: 7px 9px;}
+.btn-lg, .btn-group-lg>.btn {padding: 15px 19px;font-size: 17px;}

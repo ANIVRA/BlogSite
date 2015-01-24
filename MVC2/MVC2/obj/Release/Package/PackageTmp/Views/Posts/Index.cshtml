@@ -1,0 +1,151 @@
+﻿@model IEnumerable<MVC2.Models.Post>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p><br />
+
+    @Html.ActionLink("All", "Index", new { @style="text-align:left"})
+
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MediaURL)            
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Author.DisplayName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Created)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Updated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Body)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+
+            <div class="round">
+                <img src=@Html.DisplayFor(modelItem => item.MediaURL) max/>
+            </div>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Author.DisplayName)
+        </td>
+        <td>
+            @item.Created.ToString("MM.dd.yyyy")
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Updated)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Body)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }) |
+            @Html.ActionLink("Comments", "Create", "Comments", new { id = item.Id }, null)
+        </td>
+    </tr>
+}
+
+</table>*@
+
+<div class="row">
+<div id="left" class="col-md-7">
+    @{
+        int cDay;
+        string cMon;
+
+        foreach (var item in Model)
+        {
+            //if (item.Created != null)
+            //{
+            cDay = item.Created.Day;
+            cMon = item.Created.ToString("MMM");
+            //}
+
+            <div class="article">
+                <div class="top">
+                    <p class="calendar">@cMon <span>@cDay</span></p>
+                    <h2><a href="#">@Html.DisplayFor(modelItem => item.Title)</a></h2>
+                    <p class="info"> <span class="category"><a href="#">Category</a></span> <span class="comments"><a href="#">0 comments</a></span> </p>
+                </div>
+                <div class="text">                    
+                    <div class="round">
+                        <img src=@Html.DisplayFor(modelItem => item.MediaURL) max />
+                        <div>
+                            <p> @Html.DisplayFor(modelItem => item.Body)</p>
+                        </div>
+                    </div>
+                    <p> <a href="#">Read more...</a> </p>
+                </div>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
+                @Html.ActionLink("Comments", "Create", "Comments", new { id = item.Id }, null)
+            </div><br />
+        }
+    }
+</div>
+
+<div id="right" class="col-md-5">
+    <ul id="rss">
+        <li>RSS:</li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Comments</a></li>
+    </ul>
+    <h4>Search</h4>
+
+    @using (Html.BeginForm("Index", "Posts", FormMethod.Post, new { id = "tfnewsearch" }))
+    {
+        <div>
+            <input type="text" id="searchStr" class="tftextinput2" name="searchStr" value="Search our website" a><input type="submit" value=">" class="tfbutton2">
+        </div>
+        <div class="tfclear"></div>
+    }
+
+    <br /><br />            
+    <h4>Categories</h4>
+    <ul class="categories">
+        <li><a href="#">Ligula a ultrices</a></li>
+        <li><a href="#">Fusce sed</a></li>
+        <li><a href="#">Nulla laoreet</a></li>
+        <li><a href="#">Vetellus molestie</a></li>
+        <li><a href="#">Nunc porta ipsum</a></li>
+    </ul>
+    <h4>Archive</h4>
+    <ul class="archive">
+        <li><a href="#">January 2008</a></li>
+        <li><a href="#">February 2008</a></li>
+        <li><a href="#">March 2008</a></li>
+        <li><a href="#">April 2008</a></li>
+        <li><a href="#">May 2008</a></li>
+    </ul>
+    <h4>Links</h4>
+    <ul class="links">
+        <li><a href="#">flavicius.php5.cz</a></li>
+        <li><a href="#">venenatis.com</a></li>
+        <li><a href="#">fucsesed.com</a></li>
+        <li><a href="#">sedopellente.org</a></li>
+    </ul>
+</div>
+</div>

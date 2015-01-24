@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="RaynorADB-Web.config Connection String" description="RaynorADB Connection String used in web.config by the application to access the database." defaultValue="Data Source=mbmuw7kmu9.database.windows.net; Database=cf-database;User ID=CoderFoundry;Password=LearnToCode1;Encrypt=true;Trusted_Connection=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Antonio\\documents\\visual\ studio\ 2013\\Projects\\MVC2\\MVC2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RaynorADB']/@connectionString" />
+  </parameter>
+  <parameter name="RaynorADB_DatabasePublish-Web.config Connection String" description="RaynorADB_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="RaynorADB_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Antonio\\documents\\visual\ studio\ 2013\\Projects\\MVC2\\MVC2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RaynorADB_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

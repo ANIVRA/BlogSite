@@ -1,0 +1,71 @@
+﻿@model IEnumerable<MVC2.Models.Post>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@*<div class="parallax" style="background-image: url(griny/images/bg1.jpg);">
+    <div class="text">
+        <h1>My weBLOG</h1>
+        <p>by ANIVRA</p>
+    </div>
+</div>*@
+
+<section class="text-block">
+    <div class="light-bg">
+        <div class="container">
+            <h2 class="with-border">Blog <small class="color">/ write something</small></h2>
+            <ul class="">
+                @*<div class="row">*@                                                                                                                                         
+                                                                                                                                                        
+                    @foreach (var item in Model)
+                    {
+                            <li class="span6">
+                                <div class="thumbnail">
+                                    <div class="img-wrap">
+                                        <a href="#"><img src=@Html.DisplayFor(modelItem => item.MediaURL) alt="" /></a>
+                                    </div>
+                                    <h3 class="with-border">@Html.DisplayFor(modelItem => item.Title)</h3>
+                                    <div class="info-panel">
+                                        <span><time datetime=""><i class="icon-calendar "></i> @item.Created.ToString("MMM dd, yyyy")</time></span>
+                                        <span><i class="icon-user"></i> By @Html.DisplayFor(modelItem => item.Author.FirstName) </span>
+                                        <span><i class="icon-tags"></i> <a href="#">Portfolio</a>, <a href="#">Design</a></span>
+                                        <span><i class="icon-comments"></i> With <a href="#">@item.Comments.Count comment(s)</a></span>
+                                    </div>
+                                    <div class="box">
+                                            @Html.DisplayFor(modelItem => item.Body)
+   
+                                    </div>
+
+                                        <a class="pull-left">
+                                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                        </a>
+
+                                    <a class="btn pull-right" href="#">Read more</a>
+                                    </div>
+                            </li>
+                    }                                                       
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div class="bottom-parallax small-view" style="background-image: url(griny/images/bg1.jpg);">
+    <div class="black-bg">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span9">
+                    <h3>@*Want to get started?*@</h3>
+                    <h4>@*Nullam iaculis dictum ullamcorper. In vitae pellentesque massa. Vivamus viverra libero dapibus, sodales lectus a, consectetur ante.*@</h4>
+                </div>
+                <div class="span3">
+                    <a class="btn btn-large" href="#">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
